@@ -1,0 +1,13 @@
+{
+  "name": "solana-sweeper-bot",
+  "version": "1.0.0",
+  "description": "Automatically sweeps SOL when balance exceeds threshold",
+  "main": "sweeper.js",
+  "scripts": {
+    "start": "node sweeper.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "bs58": "^5.0.0"
+  }
+}
